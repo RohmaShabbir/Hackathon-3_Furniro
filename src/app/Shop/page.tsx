@@ -88,7 +88,7 @@ const Shop = () => {
   const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
 
   return (
-    <div className="w-full bg-white">
+    <div className="w-full bg-white ">
       {loading && (
         <div className="flex justify-center items-center h-screen">
           <PulseLoader color="#B88E2F" size={15} />
