@@ -19,7 +19,7 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
         onClick={() => addToWishlist(product)}
         className="text-black py-2 px-4 w-full md:w-[202px] h-[48px] flex justify-center items-center border-[1px] border-black  hover:bg-black hover:text-white rounded-[10px]"
       >
-        Add to Wishlist❤️
+        Add to Wishlist
       </button>
     </div>
   );
